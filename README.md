@@ -16,16 +16,27 @@ This project presents a comprehensive network scenario designed for a government
 ## Implemented Technologies
 
 ### Telnet
-Telnet is configured for remote management and configuration of routers.
+Telnet is configured for remote management and configuration of routers.  
+
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/Telnet.png" alt="Telnet" width="250">
 
 ### Access Control Lists
 ACL is applied on the AR2220 router (labeled AR1) to permit and restrict access from specific IP addresses.
 
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/ACL.png" alt="ACL" width="450">
+
+
 ### Link Aggregation Control Protocol (LACP)
 An Eth-Trunk is configured in LACP mode between switches LSW10 and LSW11.
 
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/LACP.png" alt="LACP" width="450">
+
+
 ### Static Routing
 Static routes are configured in the Transportation Division using routers: R9, R10, R11, R13, and R21.
+
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/Static%20Routing.png" alt="Static Routing" width="450">
+
 
 ### Dynamic Routing — RIP
 RIP version 2 is enabled on all routers, allowing automatic exchange of routing information for directly connected networks.
@@ -33,15 +44,29 @@ RIP version 2 is enabled on all routers, allowing automatic exchange of routing 
 ### Spanning Tree Protocol
 STP is configured in the Labour and Employment Division using switches LSW4, LSW8, LSW9, LSW10, and LSW11 to prevent network loops.
 
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/STP.png" alt="STP" width="450">
+
+
 ### Variable Length Subnet Masking
 VLSM is used throughout the design to efficiently allocate IP addresses based on departmental requirements.
+
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/VLSM.png" alt="VLSM" width="500">
+
 
 ### Virtual Local Area Network
 Inter-VLAN routing is implemented using 'Router-on-a-Stick' in the Home Affairs and Foreign Affairs Divisions to allow communication between VLAN 10 and VLAN 20 via router R5.
 
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/VLAN.png" alt="VLAN" width="450">
+
+
 ### Dynamic Host Configuration Protocol
 Router R6 is configured as a DHCP server, while R8 acts as a DHCP relay agent.
 
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/DHCP.png" alt="DHCP" width="450">
+
+
 ### File Transfer Protocol (FTP)
 Router R5 hosts the FTP service to enable file sharing between departments.
+
+<img src="https://github.com/FatimaNW/Government-Network-Project/blob/main/Images/FTP.png" alt="FTP" width="450">
 
