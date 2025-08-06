@@ -1,7 +1,6 @@
 # Government-Network-Project
 This project presents a comprehensive network scenario designed for a government setup, implemented using eNSP (Enterprise Network Simulation Platform). The network encompasses a central cloud system, seven departmental routers, DHCP and FTP servers, and various switches connecting departmental devices. The primary focus is on implementing key network technologies to ensure seamless connectivity and robust security across multiple government divisions. The following technologies were implemented to ensure optimal performance and security:
 
-* Subnetting
 * Telnet
 * Access Control Lists (ACL) 
 * Link Aggregation Control Protocol (LACP)
